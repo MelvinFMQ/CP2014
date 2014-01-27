@@ -53,10 +53,10 @@ def q6_find_ascii_char():
 q6_find_ascii_char()
 
 #q7_generate_payroll.py
-def q7_generate_payroll:
+def q7_generate_payroll():
     name = input("Enter  Name : ")
     work_hr = input("Enter number of hours worked weekly: ")
-    pay_rate = input("Enter hourly pay rate: ")
+    pay_rate =input("Enter hourly pay rate: ")
     cpf = input("Enter CPF contribution rate(%): ")
     gross_pay = float(work_hr) * float(pay_rate)
     cpf_cont = gross_pay * float(cpf)/100
