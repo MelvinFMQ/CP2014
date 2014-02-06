@@ -1,6 +1,5 @@
 #eg: number = 1000 ; width = (1000-999)*4 + (999-99)*3 + (99-9)*2 + 9
-#                   last_width = 1        +  900* 3     + 90*2    + 9*1  
-
+#                   last_width = 1        +  900* 3     + 90*2    + 9*1 
 def display_pattern(n):
     num_pattern = ""  
     if n > 9:
@@ -19,16 +18,13 @@ def display_pattern(n):
         calculated_width = int(other_width + last_width)
     else:
     #if number is within 9 , width = number
-        calculated_width = n
-    
+        calculated_width = n    
     for i in range(1 , n+1):
         #make number n inclusive 
         num_pattern = str(i) + num_pattern 
         pattern = "{num:>{width}}".format(num = num_pattern , width = calculated_width)
         #width stays constant
-        print(pattern)
-
-        
+        print(pattern)        
 user_input = int(input("0 to quit , or enther number: "))
 while user_input != 0:
     user_input = int(input("0 to quit , or enther number: "))
