@@ -1,0 +1,52 @@
+@import(url"normalise.css");
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#topContainer{
+background-color:rgba(0, 33, 53, 0.99);
+height:4em;
+}
+#logo{
+float:left;
+border-radius:0.5em;
+border-color:black;
+height:6em;
+width:24em;
+margin:0.3em -1em -1em 6em;
+}
+#login{
+margin-left:6em;
+}
+.nav{
+list-style-type:none;
+margin-right:8em;
+float:right;
+} 
+.navitem{
+float:right;
+margin-left:0.5em;
+margin-right:0.5em;
+width:5.8em;
+}
+
+.navcontent{
+background-color:rgba(255, 30, 64, 1);
+color:#E6E6E6;
+TEXT-DECORATION: NONE;
+font-size:1em;
+font-family: 'proxima_nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-weight:bold;
+display:block;
+width:5.7em;
+height:1.75em;
+/**alignment**/
+padding-top:0.4em;
+vertical-align:bottom;
+text-align:center;
+/** rounded corners **/
+border:0.3em solid;
+border-radius:2em;
+border-color:rgb(255,165,165);
+}
